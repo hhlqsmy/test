@@ -1,0 +1,17 @@
+server:
+  port: 8888
+spring:
+#################redis基础配置#################
+  redis:
+    host: 192.168.199.11
+    password:
+    database: 0
+    port: 6379
+#连接超时时间 单位 ms（毫秒）
+    timeout: 3000
+    pool:
+      max-active: 10
+      max-wait: -1
+      max-idle: 5
+      min-idle: 0
+
